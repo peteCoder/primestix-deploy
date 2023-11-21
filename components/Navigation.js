@@ -17,7 +17,7 @@ const Navigation = () => {
         <li
           className={`flex items-center flex-col cursor-pointer relative`}
         >
-<i class="ri-customer-service-2-line"></i>
+<i className="ri-customer-service-2-line"></i>
           <span> Enquire </span>
         </li>
 
@@ -25,7 +25,7 @@ const Navigation = () => {
           className={`flex items-center flex-col cursor-pointer relative`}
           onClick={() => handleItemClick(1)} // Provide an appropriate index
         >
-          <i class="ri-whatsapp-line"></i>
+          <i className="ri-whatsapp-line"></i>
           <span> WhatsApp </span>
 
           {/* Dropdown content */}
@@ -48,7 +48,7 @@ const Navigation = () => {
           className={`flex items-center flex-col cursor-pointer relative`}
           onClick={() => handleItemClick(2)} // Provide an appropriate index
         >
-          <i class="ri-phone-line"></i>
+          <i className="ri-phone-line"></i>
           <span> Call </span>
 
           {/* Dropdown content */}
